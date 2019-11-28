@@ -6,7 +6,7 @@ pipeline {
  stages {
     stage ('code checkout'){
        steps {
-        git 'https://github.com/prashanth-1993/game-of-life.git'
+        git 'https://github.com/prashanth-1993/spring-boot.git'
        }
     }
   stage ('Buildind the code'){
